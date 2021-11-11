@@ -14,6 +14,12 @@ class Tab1BarViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+
+
+    @IBAction func buttonDidTapped(_ sender: Any) {
+        let tab1_1VC = UIStoryboard.Tab1_1VC
+        self.present(tab1_1VC, animated: true, completion: nil)
+    }
+
 
 }
