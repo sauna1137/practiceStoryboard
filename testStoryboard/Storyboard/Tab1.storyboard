@@ -17,12 +17,13 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.74764777516956193" green="0.7825105951218172" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="tab1" id="DrW-Hz-2gU"/>
+                    <tabBarItem key="tabBarItem" title="tab1" id="iO8-IB-8c8"/>
+                    <navigationItem key="navigationItem" id="HKz-gw-bLY"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="122" y="124"/>
+            <point key="canvasLocation" x="1031.8840579710145" y="123.88392857142857"/>
         </scene>
     </scenes>
 </document>
