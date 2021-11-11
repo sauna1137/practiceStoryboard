@@ -12,7 +12,14 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    }
+
+
+    @IBAction func tabBarButtonDidTapped(_ sender: Any) {
+
+        let tabbarVC = UIStoryboard.tabBarVC
+        tabbarVC.modalPresentationStyle = .fullScreen
+        present(tabbarVC, animated: true)
     }
 
 }

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ka2-Ob-EnQ">
-                                <rect key="frame" x="119" y="398" width="176" height="100"/>
+                                <rect key="frame" x="119" y="274" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -25,6 +25,20 @@
                                 <buttonConfiguration key="configuration" style="plain" title="次へ"/>
                                 <connections>
                                     <segue destination="dnA-Fh-upk" kind="show" id="Sjv-GD-xL2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDd-xz-qB8">
+                                <rect key="frame" x="119" y="472" width="176" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="tab bar">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.87526204890000003" green="0.99325615170000003" blue="0.87937518650000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tabBarButtonDidTapped:" destination="Va5-DP-34d" eventType="touchUpInside" id="kDD-QF-0Bu"/>
                                 </connections>
                             </button>
                         </subviews>
