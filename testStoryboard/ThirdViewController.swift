@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  testStoryboard
 //
 //  Created by KS on 2021/11/11.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ThirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,8 +15,5 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func nextButtonDidTapped(_ sender: Any) {
 
-        performSegue(withIdentifier: "toThird", sender: nil)
-    }
 }
