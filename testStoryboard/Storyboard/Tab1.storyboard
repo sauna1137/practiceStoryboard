@@ -21,7 +21,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <action selector="buttonDidTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="bTp-hm-6yd"/>
+                                    <action selector="button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="X9a-v4-0IH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -31,10 +31,23 @@
                     <tabBarItem key="tabBarItem" title="tab1" id="iO8-IB-8c8"/>
                     <navigationItem key="navigationItem" id="HKz-gw-bLY"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="JU1-Xx-tBh" kind="push" id="vjW-uz-g3l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1031.8840579710145" y="123.88392857142857"/>
+        </scene>
+        <!--Tab3-->
+        <scene sceneID="Wqp-ll-pWT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tab3" id="JU1-Xx-tBh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="FbY-v6-kk0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v27-ve-ZIm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1714" y="124"/>
         </scene>
     </scenes>
 </document>

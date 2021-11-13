@@ -13,7 +13,7 @@ extension UIStoryboard {
         return UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "TabBar") as! TabBarViewController
   }
 
-    static var Tab1_1VC: Tab1_1ViewController {
-        return UIStoryboard(name: "Tab1_1", bundle: nil).instantiateViewController(withIdentifier: "Tab1_1") as! Tab1_1ViewController
+    static var Tab3VC: Tab3ViewController {
+        return UIStoryboard(name: "Tab3", bundle: nil).instantiateViewController(withIdentifier: "Tab3VC") as! Tab3ViewController
     }
 }

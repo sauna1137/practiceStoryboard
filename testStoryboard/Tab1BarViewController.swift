@@ -16,9 +16,11 @@ class Tab1BarViewController: UIViewController {
     }
 
 
-    @IBAction func buttonDidTapped(_ sender: Any) {
-        let tab1_1VC = UIStoryboard.Tab1_1VC
-        self.present(tab1_1VC, animated: true, completion: nil)
+    @IBAction func button(_ sender: Any) {
+
+        let tab3VC = UIStoryboard.Tab3VC
+//        self.navigationController?.pushViewController(tab3VC, animated: true)
+        present(tab3VC, animated: true, completion: nil)
     }
 
 

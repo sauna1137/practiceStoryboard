@@ -24,9 +24,10 @@
 		8A3ABCF3273D06E600E2B8FD /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3ABCF2273D06E600E2B8FD /* Tab2ViewController.swift */; };
 		8A3ABCF5273D082B00E2B8FD /* Tab1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3ABCF4273D082B00E2B8FD /* Tab1.storyboard */; };
 		8A3ABCF7273D08CE00E2B8FD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3ABCF6273D08CE00E2B8FD /* TabBarViewController.swift */; };
-		8A3ABCFB273D10DE00E2B8FD /* Tab1_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3ABCFA273D10DE00E2B8FD /* Tab1_1ViewController.swift */; };
 		8A3ABCFD273D11BD00E2B8FD /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3ABCFC273D11BD00E2B8FD /* Root.storyboard */; };
 		8A3ABCFF273D11FF00E2B8FD /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3ABCFE273D11FF00E2B8FD /* NavigationViewController.swift */; };
+		8A3ABD01273D5B5500E2B8FD /* Tab3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3ABD00273D5B5500E2B8FD /* Tab3.storyboard */; };
+		8A3ABD03273D5C5900E2B8FD /* Tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3ABD02273D5C5900E2B8FD /* Tab3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,9 +50,10 @@
 		8A3ABCF2273D06E600E2B8FD /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
 		8A3ABCF4273D082B00E2B8FD /* Tab1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab1.storyboard; sourceTree = "<group>"; };
 		8A3ABCF6273D08CE00E2B8FD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		8A3ABCFA273D10DE00E2B8FD /* Tab1_1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1_1ViewController.swift; sourceTree = "<group>"; };
 		8A3ABCFC273D11BD00E2B8FD /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		8A3ABCFE273D11FF00E2B8FD /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		8A3ABD00273D5B5500E2B8FD /* Tab3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab3.storyboard; sourceTree = "<group>"; };
+		8A3ABD02273D5C5900E2B8FD /* Tab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +94,8 @@
 				8A3ABCE8273CEA3200E2B8FD /* ThirdViewController.swift */,
 				8A3ABCF6273D08CE00E2B8FD /* TabBarViewController.swift */,
 				8A3ABCEC273CEF6B00E2B8FD /* Tab1BarViewController.swift */,
-				8A3ABCFA273D10DE00E2B8FD /* Tab1_1ViewController.swift */,
 				8A3ABCF2273D06E600E2B8FD /* Tab2ViewController.swift */,
+				8A3ABD02273D5C5900E2B8FD /* Tab3ViewController.swift */,
 				8A3ABCEE273CF05B00E2B8FD /* UIStoryboard-Extenstion.swift */,
 				8A3ABCDF273CA04200E2B8FD /* Storyboard */,
 				8A3ABCD4273CA02600E2B8FD /* Assets.xcassets */,
@@ -113,6 +115,7 @@
 				8A3ABCEA273CEF4100E2B8FD /* TabBar.storyboard */,
 				8A3ABCF4273D082B00E2B8FD /* Tab1.storyboard */,
 				8A3ABCF0273CF48500E2B8FD /* Tab2.storyboard */,
+				8A3ABD00273D5B5500E2B8FD /* Tab3.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3ABD01273D5B5500E2B8FD /* Tab3.storyboard in Resources */,
 				8A3ABCFD273D11BD00E2B8FD /* Root.storyboard in Resources */,
 				8A3ABCD8273CA02600E2B8FD /* LaunchScreen.storyboard in Resources */,
 				8A3ABCD5273CA02600E2B8FD /* Assets.xcassets in Resources */,
@@ -194,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3ABCFB273D10DE00E2B8FD /* Tab1_1ViewController.swift in Sources */,
 				8A3ABCFF273D11FF00E2B8FD /* NavigationViewController.swift in Sources */,
 				8A3ABCE3273CE57900E2B8FD /* SecondViewController.swift in Sources */,
 				8A3ABCCC273CA02500E2B8FD /* AppDelegate.swift in Sources */,
@@ -204,6 +207,7 @@
 				8A3ABCCE273CA02500E2B8FD /* SceneDelegate.swift in Sources */,
 				8A3ABCED273CEF6C00E2B8FD /* Tab1BarViewController.swift in Sources */,
 				8A3ABCEF273CF05B00E2B8FD /* UIStoryboard-Extenstion.swift in Sources */,
+				8A3ABD03273D5C5900E2B8FD /* Tab3ViewController.swift in Sources */,
 				8A3ABCE5273CE7DB00E2B8FD /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
